@@ -1,0 +1,17 @@
+com\driveshare\ReservationService\repository\ReservationRepository.class
+com\driveshare\ReservationService\domain\model\Reservation$ReservationBuilder.class
+com\driveshare\ReservationService\domain\model\Reservation.class
+com\driveshare\ReservationService\application\service\ReservationServise.class
+com\driveshare\ReservationService\infrastructure\config\ModelMapperConfig.class
+com\driveshare\ReservationService\ReservationServiceApplication.class
+com\driveshare\ReservationService\application\dto\ReservationDTO.class
+com\driveshare\ReservationService\common\exception\ResourceNotFoundException.class
+com\driveshare\ReservationService\infrastructure\config\OpenApiConfig.class
+com\driveshare\ReservationService\infrastructure\web\ReservationController.class
+com\driveshare\ReservationService\application\service\impl\ReservationServiceImpl$1.class
+com\driveshare\ReservationService\application\service\impl\ReservationServiceImpl.class
+com\driveshare\ReservationService\common\exception\ErrorMessage.class
+com\driveshare\ReservationService\common\exception\ControllerExceptionHandler.class
+com\driveshare\ReservationService\domain\model\ReservationStatus.class
+com\driveshare\ReservationService\domain\model\Reservation$1.class
+com\driveshare\ReservationService\common\exception\ValidationException.class
