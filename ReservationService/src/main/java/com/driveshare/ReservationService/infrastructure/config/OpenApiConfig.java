@@ -15,7 +15,7 @@ public class OpenApiConfig {
     
     @Bean
     public OpenAPI customOpenAPI() {
-        return new OpenAPI().addServersItem(new Server().url("http://localhost:8080"))
+        return new OpenAPI().addServersItem(new Server().url("https://driveshare-backend-7imt.onrender.com"))
             .components(new Components()
                 .addSecuritySchemes("bearerAuth", 
                     new SecurityScheme()
