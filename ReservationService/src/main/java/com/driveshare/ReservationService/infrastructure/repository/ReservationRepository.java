@@ -1,4 +1,4 @@
-package com.driveshare.ReservationService.repository;
+package com.driveshare.ReservationService.infrastructure.repository;
 
 import java.util.List;
 
