@@ -81,7 +81,7 @@ public class ReservationServiceImpl implements ReservationServise{
     @Transactional(readOnly = true)
     @Override
     public ReservationDTO findReservationById(Long id) {
-        return modelMapper.map(reservationRepository.findById(id).orElseThrow(() -> new ValidationException("Reservation not found with ID: " + id))
+        return modelMapper.map(reservationRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Reservation not found with ID: " + id))
         , ReservationDTO.class);
     }
 
