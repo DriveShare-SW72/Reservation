@@ -48,9 +48,7 @@ public class ReservationServiceTest {
         List<Reservation> reservations = Arrays.asList(new Reservation(), new Reservation());
         when(reservationRepository.findByHostId(hostId)).thenReturn(reservations);
         when(modelMapper.map(any(Reservation.class), eq(ReservationDTO.class))).thenAnswer(i -> new ReservationDTO());
-
         List<ReservationDTO> result = reservationService.findReservationsByHost(hostId);
-
         assertNotNull(result);
         assertEquals(2, result.size());
         verify(reservationRepository).findByHostId(hostId);
@@ -72,14 +70,15 @@ public class ReservationServiceTest {
     }
 
     @Test
-void testCancelReservation() {
-    Long reservationId = 1L;
-    Reservation reservation = new Reservation();
-    reservation.setStatus(ReservationStatus.CONFIRMED);
-    when(reservationRepository.findById(reservationId)).thenReturn(Optional.of(reservation));
-    when(reservationRepository.save(any(Reservation.class))).thenReturn(reservation);
-    reservationService.cancelReservation(reservationId);
-    assertEquals(ReservationStatus.CANCELLED, reservation.getStatus(), "The reservation status should be CANCELLED");
-    verify(reservationRepository).save(reservation); 
-}
+    void testCancelReservation() {
+        Long reservationId = 1L;
+        Reservation reservation = new Reservation();
+        reservation.setStatus(ReservationStatus.CONFIRMED);
+        when(reservationRepository.findById(reservationId)).thenReturn(Optional.of(reservation));
+        when(reservationRepository.save(any(Reservation.class))).thenReturn(reservation);
+        reservationService.cancelReservation(reservationId);
+        assertEquals(ReservationStatus.CANCELLED, reservation.getStatus(),
+                "The reservation status should be CANCELLED");
+        verify(reservationRepository).save(reservation);
+    }
 }
