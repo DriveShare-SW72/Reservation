@@ -14,7 +14,7 @@ import com.driveshare.ReservationService.common.exception.ResourceNotFoundExcept
 import com.driveshare.ReservationService.common.exception.ValidationException;
 import com.driveshare.ReservationService.domain.model.Reservation;
 import com.driveshare.ReservationService.domain.model.ReservationStatus;
-import com.driveshare.ReservationService.repository.ReservationRepository;
+import com.driveshare.ReservationService.infrastructure.repository.ReservationRepository;
 
 
 @Service

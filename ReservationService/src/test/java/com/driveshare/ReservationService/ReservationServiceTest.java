@@ -11,7 +11,7 @@ import com.driveshare.ReservationService.application.dto.ReservationDTO;
 import com.driveshare.ReservationService.application.service.impl.ReservationServiceImpl;
 import com.driveshare.ReservationService.domain.model.Reservation;
 import com.driveshare.ReservationService.domain.model.ReservationStatus;
-import com.driveshare.ReservationService.repository.ReservationRepository;
+import com.driveshare.ReservationService.infrastructure.repository.ReservationRepository;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
