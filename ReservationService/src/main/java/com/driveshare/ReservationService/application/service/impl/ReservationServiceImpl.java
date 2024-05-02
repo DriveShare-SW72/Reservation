@@ -97,7 +97,8 @@ public class ReservationServiceImpl implements ReservationServise{
     @Transactional
     @Override
     public void cancelReservation(Long id) {
-        Reservation reservation =  modelMapper.map(findReservationById(id), Reservation.class);
+        Reservation reservation = reservationRepository.findById(id)
+        .orElseThrow(() -> new ResourceNotFoundException("Reservation not found with ID: " + id));
         reservation.cancelReservation();
         reservationRepository.save(reservation);
     }
