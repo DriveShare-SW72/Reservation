@@ -4,6 +4,7 @@ D:\Github\DriveShare-Backend\ReservationService\src\main\java\com\driveshare\Res
 D:\Github\DriveShare-Backend\ReservationService\src\main\java\com\driveshare\ReservationService\application\dto\ReservationDTO.java
 D:\Github\DriveShare-Backend\ReservationService\src\main\java\com\driveshare\ReservationService\infrastructure\config\ModelMapperConfig.java
 D:\Github\DriveShare-Backend\ReservationService\src\main\java\com\driveshare\ReservationService\common\exception\ValidationException.java
+D:\Github\DriveShare-Backend\ReservationService\src\main\java\com\driveshare\ReservationService\infrastructure\repository\ReservationRepository.java
 D:\Github\DriveShare-Backend\ReservationService\src\main\java\com\driveshare\ReservationService\common\exception\ResourceNotFoundException.java
 D:\Github\DriveShare-Backend\ReservationService\src\main\java\com\driveshare\ReservationService\domain\model\Reservation.java
 D:\Github\DriveShare-Backend\ReservationService\src\main\java\com\driveshare\ReservationService\domain\model\ReservationStatus.java
@@ -11,4 +12,3 @@ D:\Github\DriveShare-Backend\ReservationService\src\main\java\com\driveshare\Res
 D:\Github\DriveShare-Backend\ReservationService\src\main\java\com\driveshare\ReservationService\infrastructure\config\OpenApiConfig.java
 D:\Github\DriveShare-Backend\ReservationService\src\main\java\com\driveshare\ReservationService\infrastructure\web\ReservationController.java
 D:\Github\DriveShare-Backend\ReservationService\src\main\java\com\driveshare\ReservationService\ReservationServiceApplication.java
-D:\Github\DriveShare-Backend\ReservationService\src\main\java\com\driveshare\ReservationService\repository\ReservationRepository.java

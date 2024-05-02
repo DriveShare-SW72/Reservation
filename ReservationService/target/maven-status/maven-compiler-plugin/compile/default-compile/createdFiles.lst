@@ -1,4 +1,3 @@
-com\driveshare\ReservationService\repository\ReservationRepository.class
 com\driveshare\ReservationService\domain\model\Reservation$ReservationBuilder.class
 com\driveshare\ReservationService\domain\model\Reservation.class
 com\driveshare\ReservationService\application\service\ReservationServise.class
@@ -15,3 +14,4 @@ com\driveshare\ReservationService\common\exception\ControllerExceptionHandler.cl
 com\driveshare\ReservationService\domain\model\ReservationStatus.class
 com\driveshare\ReservationService\domain\model\Reservation$1.class
 com\driveshare\ReservationService\common\exception\ValidationException.class
+com\driveshare\ReservationService\infrastructure\repository\ReservationRepository.class
